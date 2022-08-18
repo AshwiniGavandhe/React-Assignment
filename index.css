@@ -1,0 +1,57 @@
+* {
+  margin: 70;
+  padding: 50;
+  box-sizing:initial;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+input,button{
+  background-color:lightpink;
+border-width:unset;
+outline: darkgrey;
+
+
+}
+
+.App
+{
+  height: 100vh;
+  display: flex;
+  align-items:center;
+  justify-content: center;
+  background-color:lightskyblue;
+
+
+  
+}
+
+form {
+  display:block;
+  position:relative;
+
+}
+
+form .form-inner  {
+  position: relative;
+  display:-ms-flexbox;
+  background-color:#FFF;
+  padding:30px;
+  z-index:2;
+}
+
+form.form-inner h2 {
+  color:aqua;
+  font-size: 28px;
+  font-weight: 500;
+  margin-bottom: 30px;
+}
+
+form .form-inner .form-group {
+  display: block;
+  width: 300px;
+  margin-bottom: 15px;
+
+}
+
+
+
